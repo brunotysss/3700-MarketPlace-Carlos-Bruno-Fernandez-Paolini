@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap" rel="stylesheet">
+    <title>Market</title>
+</head>
+<body class="bodyGrid">
+    <div id="logo"><h1 class="tituloMargenes">MarketPlace</h1></div>
+    <div><nav><ul class="listaInicio" >
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../seccion/Producto.html">Producto</a></li>
+        <li><a href="../seccion/Nosotros.html">Nosotros</a></li>
+        <li><a href="../seccion/Noticias.html">Noticias</a></li>
+        <li><a href="../seccion/Contacto.html">Contacto</a></li>
+    </ul></nav></div>
+<div>
+    <form action="" method="Get">
+        <fieldset>
+            <legend>Informacion del Cliente</legend>
+            <div>
+                <label for="InfoSexo">Sexo:</label>
+                <input type="radio" name="InfoSexo" value="Maculino" required>Masculino
+                <input type="radio" name="InfoSexo" value="Femenino" required>Femenino
+                <input type="radio" name="InfoSexo" value="Otro" required>Otro
+            </div>
+            <br>
+            <div>
+            <label for="infoNombre">Nombre:</label>
+            <input type="text" name="infoNombre" id="InfoNombre" placeholder="Ingrese su nombre">
+            </div>  
+            <div>
+            <label for="InfoApellido">Apellido:</label>
+            <input type="text" name="InfoApellido" id="InfoApellido" placeholder="Ingrese su apellido">
+            </div>
+            <div>
+                <label for="Email">Email</label>
+                <input type="email" name="Email" id="Email" placeholder="Ingrese su Email">
+            </div>
+            <div>
+                <label for="InfoTelefono">Telefono:</label>
+                <input type="number" name="InfoTelefono" id="InfoTelefono" placeholder="Ingrese su numero de telefono">
+            </div>
+            <div>
+                <textarea  type="textarea" name="InfoTelefono" id="InfoText" placeholder="Ingrese su consulta"></textarea>
+            </div>
+            <div>
+                <label for="InfoLegal">Acepta terminos y condiciones</label>
+                <input type="checkbox" name="InfoLegal" id="InfoLegal" value="1">
+            </div>
+            <br>
+            <div>
+                <input type="reset" value="Limpiar">
+                <input type="submit" value="Enviar">
+            </div>
+
+        </fieldset>
+    </form>
+</div>
+
+
+
+<footer class="footerGrid">
+    <p class="FooterText">Derechos de autor : bruno fernandez</p>
+   <p class="FooterText">Numero:38149548</p> 
+</footer>
+</body>
+</html>
