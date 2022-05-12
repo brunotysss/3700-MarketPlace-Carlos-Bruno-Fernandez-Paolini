@@ -209,3 +209,13 @@ nav ul li {
     height: 75px;
     transition: height 2s;
   }
+
+  
+  /* Animacion de escala */
+  .agrandar {
+    transition: all 2s;
+  }
+
+  .agrandar:hover {
+    transform: scale(1.2);
+  }
