@@ -1,0 +1,25 @@
+/*# sourceMappingURL=style.css.map */
+@import '../scss/components/footer';
+@import '../scss/base/listas';
+
+div{
+    table{
+            tr{
+                td{
+                    background: linear-gradient(to bottom,
+                    nth($colores,4),
+                    nth($colores,5));
+                    border: 1px solid nth($colores,3);
+                    font-size: 20px;
+                    font-family: sans-serif;
+                        div{
+                        text-align: center;
+                            &:hover{
+                                background-color: antiquewhite;
+                                    }                          
+                            }
+                }
+            }
+        }
+
+}
