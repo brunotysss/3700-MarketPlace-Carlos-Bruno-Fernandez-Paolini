@@ -5,20 +5,6 @@
 
 }
 
-.grid-container
-/*grid para modelar toda la pagina*/
-  {
-  display: grid;
-  padding-left: 1em;
-  margin: 0 auto ;
-  background-repeat: no-repeat;
-  background-color: antiquewhite;
-  background: rgba(0, 0, 0, 0.1) url(../Img/fondo.jpg) no-repeat center center fixed;
-  background-size: 100% 100%;
-  font-family: 'Amatic SC', cursive;
-  font-size: 25px;
-  font-weight: bold;
-}
 @media only screen and (max-width: 768px) {
   .grid-container {
     background: rgba(0, 0, 0, 0.1) url(../Img/cpu.jpg) no-repeat center center fixed;
@@ -29,80 +15,6 @@
 }
 
 
-.navbar
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between !important;
-  font-size: 50px;
-
-}
-
-.indexSeguro
-
-/*flex box y box model Titulos index*/
-  {
-  display: flex;
-  flex-direction: row;
-  /*background-color: grey;*/
-}
-
-
-#h1{
-  font-family: 'Times New Roman', Times, serif;
-  font-size: 100%;
-  text-align: center;
-  line-height: 2em;
-  padding: 3px;
-  text-transform: uppercase;
-  font-size: 32px;
-
-}
-
-
-.colorSub
-
-/*color de algunas cosas*/
-  {
-  color: rgb(0, 4, 255);
-  font-weight: bold;
-  font-size: 30px;
-}
-
-
-
-#colorBack
-
-/*Color background Form*/
-  {
-  background-color: white;
-}
-
-.separarForm
-
-/*grid para separar en Contacto*/
-  {
-  display: grid;
-  grid-template-columns: 1fr 2fr;
-  grid-column-gap: 30px;
-  /*background-color: grey;*/
-}
-
-.separarPlan
-
-/*grid para separar planes las tablas*/
-  {
-  display: grid;
-  grid-template-columns: 20% auto;
-
-}
-
-.staffVista {
-  display: flex;
-  flex-direction: row;
-  /*background-color: grey;*/
-}
-
 .staffFotos {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -111,15 +23,6 @@
   /*background-color: grey;*/
 }
 
-#separarCaja {
-  margin-top: 100px;
-  /*background-color: grey;*/
-}
-
-#separador {
-  margin-top: 100px;
-  /*background-color: grey;*/
-}
 
 
 
@@ -162,6 +65,22 @@ nav ul li {
 .agrandar:hover {
   transform: scale(1.2);
 }
+
+/*
+.grid-container
+
+  {
+    display: grid;
+    padding-left: 1em;
+    margin: 0 auto ;
+    background-repeat: no-repeat;
+    background-color: antiquewhite;
+    background: rgba(0, 0, 0, 0.1) url(../Img/fondo.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+    font-family: 'Amatic SC', cursive;
+    font-size: 25px;
+    font-weight: bold;
+}*/
 
 /*
 .FooterText {
@@ -214,6 +133,18 @@ div table tr td
 
 
 
+*/
+/*
+#h1{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 100%;
+  text-align: center;
+  line-height: 2em;
+  padding: 3px;
+  text-transform: uppercase;
+  font-size: 32px;
+
+}
 */
 
 /*

@@ -1,25 +1,14 @@
 /*# sourceMappingURL=style.css.map */
-@import '../scss/components/footer';
+@import '../scss/base/extends';
+@import '../scss/base/operadores';
 @import '../scss/base/listas';
+@import '../scss/base/mapas';
+@import '../scss/base/mixin';
+@import '../scss/components/footer';
+@import '../scss/components/body';
+@import '../scss/components/header';
+@import '../scss/components/form';
 
-div{
-    table{
-            tr{
-                td{
-                    background: linear-gradient(to bottom,
-                    nth($colores,4),
-                    nth($colores,5));
-                    border: 1px solid nth($colores,3);
-                    font-size: 20px;
-                    font-family: sans-serif;
-                        div{
-                        text-align: center;
-                            &:hover{
-                                background-color: antiquewhite;
-                                    }                          
-                            }
-                }
-            }
-        }
 
-}
+
+

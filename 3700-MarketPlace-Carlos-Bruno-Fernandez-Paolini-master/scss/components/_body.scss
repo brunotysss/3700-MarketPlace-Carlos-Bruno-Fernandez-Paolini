@@ -1,0 +1,12 @@
+/* Cuerpo de la pagimas*/
+body{
+    display: grid;
+    padding-left: 1em;
+    margin: 0 auto ;
+    background-repeat: no-repeat;
+    background-color: nth($colores,7);
+    background: nth($colores,8) url(../Img/fondo.jpg) no-repeat center center fixed;
+    background-size: 100% 100%;
+//font-size: nth($font-size,2);
+//font-weight: bold;
+}

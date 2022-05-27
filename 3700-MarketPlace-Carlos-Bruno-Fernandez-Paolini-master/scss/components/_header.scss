@@ -1,0 +1,58 @@
+div{
+    table{
+            tr{
+                td{
+                    background: linear-gradient(to bottom,
+                    nth($colores,4),
+                    nth($colores,5));
+                    border: 1px solid nth($colores,3);
+                    font-size: nth($font-size,2);
+                    font-family: sans-serif;
+                        div{
+                        text-align: center;
+                            &:hover{
+                                background-color: nth($colores, 7 );
+                                    }                          
+                            }
+                }
+            }
+        }
+
+}
+
+/* titulo de la pagina*/
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100%;
+    text-align: center;
+    line-height: 2em;
+    padding: 3px;
+    text-transform: uppercase;
+    font-size: nth($font-size,1);
+}
+
+
+
+.navbar
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between !important;
+  font-size: 50px;
+
+}
+
+.indexSeguro
+
+/*flex box y box model Titulos index*/
+  {
+ @include flex(flex,row,center);
+  /*background-color: grey;*/
+}
+
+
+
+.staffVista {
+    @extend %flex;
+  /*background-color: grey;*/
+}

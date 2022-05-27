@@ -1,0 +1,11 @@
+
+
+
+form{
+        label{
+            font-size: nth($font-size,2);
+            font-family: 'Amatic SC', cursive;
+            border: map-get($form , border);
+            height: $ancho + 2;
+        }
+} 
