@@ -1,4 +1,4 @@
-
+/* cambios del footer */
 footer{
     display: grid;
     grid-template-columns: 6fr 7fr 4fr 4fr;
@@ -6,7 +6,8 @@ footer{
     background-image: linear-gradient(to right,
         rgb(190, 159, 18),
         rgb(116, 32, 17));
-    position: absolute;
+    position: fixed;
+    left: 0;
     bottom: 0;
     width: 100%;
     height: $ancho*2+$ancho;

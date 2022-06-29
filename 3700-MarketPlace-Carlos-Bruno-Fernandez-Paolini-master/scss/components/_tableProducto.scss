@@ -1,0 +1,27 @@
+
+  div table tr td div {
+    text-align: center;
+  }
+  div table tr td div:hover {
+    background-color: antiquewhite;
+  }
+
+  .datatableProduct img {
+    height: 100px;
+    width: 100px;
+  }
+  
+  .datatableProduct table {
+  
+  
+    color: rgb(8, 8, 8);
+    border: 1px solid rgb(8, 8, 8);
+    background: linear-gradient(to bottom, rgba(247, 0, 152, 0.671), rgba(133, 7, 116, 0.822));
+    /*  font-size: 20px;*/
+    font-weight: bold;
+    font-family: sans-serif;
+    height: 600px;
+    width: 600px;
+  
+    /*   text-align: center;*/
+  }

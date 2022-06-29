@@ -15,12 +15,14 @@ Las listas puedo agrupar estilos que sean de la misma familia
 
 */
 /* Mixins  */
+/* cambios del footer */
 footer {
   display: grid;
   grid-template-columns: 6fr 7fr 4fr 4fr;
   margin-top: 50px;
   background-image: linear-gradient(to right, rgb(190, 159, 18), rgb(116, 32, 17));
-  position: absolute;
+  position: fixed;
+  left: 0;
   bottom: 0;
   width: 100%;
   height: 60px;
@@ -34,12 +36,19 @@ footer p {
 /* Cuerpo de la pagimas*/
 body {
   display: grid;
-  padding-left: 1em;
+  padding-left: 0.5em;
   margin: 0 auto;
   background-repeat: no-repeat;
   background-color: antiquewhite;
-  background: rgba(0, 0, 0, 0.1) url(../Img/fondo.jpg) no-repeat center center fixed;
+  background: rgba(0, 0, 0, 0.1) url(../img/fondo.jpg) no-repeat center center fixed;
   background-size: 100% 100%;
+}
+
+.formatH2 {
+  font-family: "Times New Roman", Times, serif;
+  color: #030A0A;
+  font-size: 30px;
+  font-style: italic;
 }
 
 div table tr td {
@@ -73,10 +82,12 @@ h1 {
   font-size: 50px;
 }
 
-.indexSeguro {
+.formatoTexto {
   display: flex;
   align-items: row;
   flex-direction: center;
+  font-weight: bold;
+  font-size: 150%;
   /*background-color: grey;*/
 }
 
@@ -84,11 +95,44 @@ h1 {
   /*background-color: grey;*/
 }
 
+/* form de contacto*/
 form label {
   font-size: 25px;
   font-family: "Amatic SC", cursive;
   border: solid 3px black;
   height: 40px;
+  font-weight: bold;
+}
+
+/* carrusell de boostrap*/
+.carousel-item {
+  width: 100%;
+  text-align: center;
+}
+
+div table tr td div {
+  text-align: center;
+}
+
+div table tr td div:hover {
+  background-color: antiquewhite;
+}
+
+.datatableProduct img {
+  height: 100px;
+  width: 100px;
+}
+
+.datatableProduct table {
+  color: rgb(8, 8, 8);
+  border: 1px solid rgb(8, 8, 8);
+  background: linear-gradient(to bottom, rgba(247, 0, 152, 0.671), rgba(133, 7, 116, 0.822));
+  /*  font-size: 20px;*/
+  font-weight: bold;
+  font-family: sans-serif;
+  height: 600px;
+  width: 600px;
+  /*   text-align: center;*/
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -42,11 +42,13 @@ h1{
 
 }
 
-.indexSeguro
+.formatoTexto
 
 /*flex box y box model Titulos index*/
   {
  @include flex(flex,row,center);
+ font-weight: bold;
+ font-size: 150%;
   /*background-color: grey;*/
 }
 

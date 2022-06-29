@@ -1,4 +1,4 @@
-
+/* form de contacto*/
 
 
 form{
@@ -7,5 +7,6 @@ form{
             font-family: 'Amatic SC', cursive;
             border: map-get($form , border);
             height: $ancho*2;
+            font-weight: bold;
         }
 } 
