@@ -18,7 +18,11 @@ body{
     font-style: italic;
 }
 @media only screen and (max-width: 998px) {
-
+    .formatoTexto{
+        @include flex(flex,row,center);
+ font-weight: bold;
+ font-size: 300%; 
+    }
 }
 
 //navbar-toggler-icon
